@@ -69,3 +69,11 @@ button {
     background-color: #fff;
     border-color: #fff;
 }
+.header-body {
+    margin-top: 7rem;
+    color: #F2C19D;
+}
+.logo-name span {
+    font-family: Cairo-Bold;
+    font-size: 1.2rem;
+}
