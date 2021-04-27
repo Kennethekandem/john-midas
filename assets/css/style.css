@@ -87,7 +87,7 @@ button {
     margin-right: auto;
     position: relative;
     top: 5rem;
-    height: 28rem;
+    height: 26rem;
     width: 64%;
     background: linear-gradient(90deg, #F2C19D 60%, #025b5e 60%);
 }
@@ -99,4 +99,21 @@ button {
 .about {
     height: 450px;
     background: #F2C19D;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 414px) {
+    .header-body {
+        margin-top: 3rem;
+    }
+    .image-holder {
+        height: 17.5rem;
+        width: 90%;
+    }
+    .image-holder img {
+        top: -20px;
+        height: 20rem;
+    }
 }
