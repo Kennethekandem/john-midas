@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Playfair-Regular;
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: Playfair-Bold;
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf');
+}
+@font-face {
+    font-family: Playfair-SemiBold;
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf');
+}
+@font-face {
+    font-family: Cairo-SemiBold;
+    src: url('../fonts/Cairo/Cairo-SemiBold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair-Regular";
+}
+h1 {
+    font-family: "Playfair-Bold";
+}
+a {
+    font-family: 'Cairo-SemiBold';
+}
+.header {
+    background: #035B5E;
+    height: 100vh;
+}
+.navbar {
+    background: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #66999a;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
