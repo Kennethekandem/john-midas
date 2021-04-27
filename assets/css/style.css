@@ -82,3 +82,21 @@ button {
 .header-body-content p {
     font-size: .85rem;
 }
+.image-holder {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5rem;
+    height: 28rem;
+    width: 64%;
+    background: linear-gradient(90deg, #F2C19D 60%, #025b5e 60%);
+}
+.image-holder img {
+    position: relative;
+    top: -1.7rem;
+    height: 29rem;
+}
+.about {
+    height: 450px;
+    background: #F2C19D;
+}
