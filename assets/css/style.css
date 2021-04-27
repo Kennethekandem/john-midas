@@ -25,17 +25,27 @@ h1 {
 }
 a {
     font-family: 'Cairo-SemiBold';
+    font-size: 16px;
 }
 .header {
     background: #035B5E;
     height: 100vh;
 }
 .navbar {
-    background: transparent !important;
+    background: #035B5E !important;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #66999a;
+    color: #8eb1b1;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-nav .nav-item {
+    padding: 0 .9rem;
+    text-align: center !important;
 }
