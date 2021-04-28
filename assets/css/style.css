@@ -70,7 +70,7 @@ button {
     background-color: #fff;
     border-color: #fff;
 }
-.header-body, .about-body, .projects-body {
+.header-body, .about-body, .projects-body, .projects-cards {
     margin-left: auto;
     margin-right: auto;
 }
@@ -118,6 +118,10 @@ button {
     position: relative;
     top: 6rem;
     color: #025b5e;
+}
+.projects-cards {
+    position: relative;
+    top: 10rem;
 }
 
 /* Media Queries */
