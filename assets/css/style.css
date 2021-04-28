@@ -36,7 +36,7 @@ button {
 }
 .header {
     background: #035B5E;
-    height: 100vh;
+    height: auto;
     /*padding-top: 5.2rem;*/
 }
 .navbar {
@@ -103,13 +103,14 @@ button {
 /*About css*/
 
 .about {
-    height: 75vh;
+    height: auto;
     background: #F2C19D;
 }
 .about-body {
     position: relative;
-    top: 23rem;
+    top: 10rem;
     color: #025b5e;
+    height: 30rem;
 }
 
 /*Project css*/
