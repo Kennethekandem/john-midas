@@ -37,6 +37,7 @@ button {
 .header {
     background: #035B5E;
     height: 100vh;
+    /*padding-top: 5.2rem;*/
 }
 .navbar {
     background: #035B5E !important;
@@ -69,11 +70,13 @@ button {
     background-color: #fff;
     border-color: #fff;
 }
+.header-body, .about-body, .projects-body {
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-body {
     margin-top: 7rem;
     color: #F2C19D;
-    margin-left: auto;
-    margin-right: auto;
 }
 .logo-name span {
     font-family: Cairo-Bold;
@@ -96,11 +99,26 @@ button {
     top: -1.7rem;
     height: 29rem;
 }
+
+/*About css*/
+
 .about {
-    height: 450px;
+    height: 75vh;
     background: #F2C19D;
 }
+.about-body {
+    position: relative;
+    top: 23rem;
+    color: #025b5e;
+}
 
+/*Project css*/
+
+.projects-body {
+    position: relative;
+    top: 6rem;
+    color: #025b5e;
+}
 
 /* Media Queries */
 
@@ -115,5 +133,11 @@ button {
     .image-holder img {
         top: -20px;
         height: 20rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .image-holder {
+        top: 2rem;
     }
 }
