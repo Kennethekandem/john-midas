@@ -34,6 +34,17 @@ a, p {
 button {
     font-family: 'Cairo-Bold';
 }
+.card {
+    border: 0;
+    border-radius: 0;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.card-body {
+    padding: 1rem 0;
+}
 .header {
     background: #035B5E;
     height: auto;
