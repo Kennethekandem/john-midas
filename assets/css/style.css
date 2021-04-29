@@ -103,6 +103,12 @@ button {
     font-family: Cairo-Bold;
     font-size: 1.2rem;
 }
+.rotate-image {
+    transition: transform .7s ease-in-out;
+}
+.rotate-image:hover {
+    transform: rotate(190deg);
+}
 .header-body-content p {
     font-size: .85rem;
 }
