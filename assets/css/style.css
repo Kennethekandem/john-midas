@@ -18,6 +18,10 @@
     font-family: Cairo-Bold;
     src: url('../fonts/Cairo/Cairo-Bold.ttf');
 }
+@font-face {
+    font-family: Cairo-Black;
+    src: url('../fonts/Cairo/Cairo-Black.ttf');
+}
 
 body {
     margin: 0;
@@ -27,7 +31,13 @@ body {
 h1 {
     font-family: "Playfair-Bold";
 }
-a, p {
+h4 {
+    font-family: "Cairo-Black";
+}
+h4, h6 {
+    color: #035B5E;
+}
+a, p, h6 {
     font-family: 'Cairo-SemiBold';
     font-size: 16px;
 }
