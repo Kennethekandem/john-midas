@@ -22,6 +22,10 @@
     font-family: Cairo-Black;
     src: url('../fonts/Cairo/Cairo-Black.ttf');
 }
+@font-face {
+    font-family: Cairo-light;
+    src: url('../fonts/Cairo/Cairo-Light.ttf');
+}
 
 body {
     margin: 0;
@@ -176,6 +180,25 @@ button {
 footer {
     height: 4rem;
     background-color: #74aeaf;
+    padding-top: 1.4rem
+}
+.socials-footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 .7rem;
+}
+.socials-footer li a {
+    color: #025b5e;
+}
+.author {
+    text-align: right;
+}
+.author p {
+    font-family: Cairo-light;
+}
+.author p a {
+    color: #025b5e;
+    text-decoration: none;
 }
 
 /* Media Queries */
@@ -191,6 +214,10 @@ footer {
     .image-holder img {
         top: -20px;
         height: 20rem;
+    }
+    footer{
+        height: auto;
+        text-align: center;
     }
 }
 
