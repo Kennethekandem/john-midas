@@ -86,12 +86,21 @@ button {
     padding: .375rem 1.7rem;
     border-radius: 1.5rem;
 }
+.btn-success {
+    background: #F2C19D;
+    border: 1px solid #F2C19D;
+    color: #025b5e;
+}
+.btn-success:hover {
+    background: #fff;
+    color: #025b5e;
+}
 .btn-outline-success:hover {
     color: #025b5e;
     background-color: #fff;
     border-color: #fff;
 }
-.header-body, .about-body, .projects-body, .projects-cards {
+.header-body, .about-body, .projects-body, .projects-cards, .contact-body {
     margin-left: auto;
     margin-right: auto;
 }
@@ -150,6 +159,16 @@ button {
 .projects-cards {
     position: relative;
     top: 10rem;
+    margin-bottom: 15rem;
+}
+
+/*Contact css*/
+
+.contact {
+    height: 13rem;
+    background: #025b5e;
+    padding-top: 3rem;
+    color: #F2C19D;
 }
 
 /* Media Queries */
