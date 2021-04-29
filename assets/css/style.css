@@ -171,6 +171,13 @@ button {
     color: #F2C19D;
 }
 
+/*Footer css*/
+
+footer {
+    height: 4rem;
+    background-color: #74aeaf;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 414px) {
