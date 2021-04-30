@@ -300,6 +300,7 @@ footer {
 }
 .p-images {
     height: 40rem;
+    margin-bottom: 3rem;
 }
 .p-images img {
     height: inherit;
