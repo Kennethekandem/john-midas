@@ -295,6 +295,16 @@ footer {
     line-height: 2.2rem;
     color: #025b5e;
 }
+.project-images {
+    margin-top: 5rem;
+}
+.p-images {
+    height: 40rem;
+}
+.p-images img {
+    height: inherit;
+    object-fit: cover;
+}
 
 /* Media Queries */
 
