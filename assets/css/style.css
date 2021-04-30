@@ -254,8 +254,28 @@ footer {
 /*Project pages*/
 
 .header-with-image {
-    height: 65vh;
+    height: 60vh;
     background-color: #025b5e;
+}
+
+.header-image {
+    background-image: url("../images/project-image.jpeg");
+    height: 25rem;
+}
+
+.overlay {
+    height: inherit;
+    background-color: rgba(2, 91, 94, .7);
+}
+
+.header-text {
+    text-align: center;
+    padding-top: 5rem;
+}
+.header-text h1 {
+    font-family: Cairo-Black;
+    color: #095B5D;
+    font-size: 4rem;
 }
 
 /* Media Queries */
