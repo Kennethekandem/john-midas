@@ -35,7 +35,7 @@ body {
 h1 {
     font-family: "Playfair-Bold";
 }
-h4 {
+h4, .card-body h4 a  {
     font-family: "Cairo-Black";
 }
 h4, h6 {
@@ -47,6 +47,9 @@ a, p, h6 {
 }
 button {
     font-family: 'Cairo-Bold';
+}
+.author p {
+    font-family: Cairo-light;
 }
 .card {
     border: 0;
@@ -210,6 +213,11 @@ button {
     top: 10rem;
     margin-bottom: 15rem;
 }
+.card-body h4 a {
+    color: #025b5e;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
 
 /*Contact css*/
 
@@ -238,12 +246,16 @@ footer {
 .author {
     text-align: right;
 }
-.author p {
-    font-family: Cairo-light;
-}
 .author p a {
     color: #025b5e;
     text-decoration: none;
+}
+
+/*Project pages*/
+
+.header-with-image {
+    height: 65vh;
+    background-color: #025b5e;
 }
 
 /* Media Queries */
