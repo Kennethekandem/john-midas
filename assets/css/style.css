@@ -306,6 +306,9 @@ footer {
     height: inherit;
     object-fit: cover;
 }
+.admin-img {
+    margin-bottom: 3rem;
+}
 
 /* Media Queries */
 
