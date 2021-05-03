@@ -348,7 +348,20 @@ footer {
         text-align: center;
     }
     .p-images {
-        height: 47rem;
+        height: 46rem;
+    }
+    .header-text {
+        padding-top: 2rem;
+    }
+    .header-text h1 {
+        font-size: 2rem;
+    }
+    .admin-img {
+        height: 14rem;
+    }
+    .admin-img img {
+        height: inherit;
+        object-fit: cover;
     }
 }
 
