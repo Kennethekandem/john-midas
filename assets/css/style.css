@@ -329,6 +329,15 @@ footer {
     margin-bottom: 3rem;
 }
 
+.overlay-relative {
+    position: relative;
+    width: 22.5rem;
+    height: 29rem;
+    top: -30.7rem;
+    left: .75rem;
+    background-color: rgba(2, 91, 94, .3);
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 414px) {
