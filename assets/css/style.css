@@ -340,6 +340,12 @@ footer {
 
 /* Media Queries */
 
+@media screen and (max-width: 1360px) {
+    .image-holder {
+        width: 72%;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .header-body {
         margin-top: 3rem;
@@ -386,11 +392,5 @@ footer {
     }
     .author {
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    .image-holder {
-        width: 72%;
     }
 }
