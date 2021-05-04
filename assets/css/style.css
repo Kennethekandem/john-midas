@@ -382,7 +382,7 @@ footer {
         width: 15.5rem;
         height: 20rem;
         top: -21.3rem;
-        left: 0;
+        left: 11px;
     }
 }
 
@@ -390,9 +390,6 @@ footer {
     .image-holder {
         top: 2rem;
         width: 86%;
-    }
-    .overlay-relative {
-        left: 11px;
     }
     .author {
         text-align: center;
