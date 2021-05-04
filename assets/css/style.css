@@ -389,6 +389,10 @@ footer {
 @media screen and (max-width: 375px) {
     .image-holder {
         top: 2rem;
+        width: 86%;
+    }
+    .overlay-relative {
+        left: 11px;
     }
     .author {
         text-align: center;
